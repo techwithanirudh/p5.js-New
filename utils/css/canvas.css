@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  /* This sets the background to black */
+  background: black;
+}
+
+.p5Canvas {
+	/* This adds a white border around the p5js canvas */
+	border: white 4px solid;
+}
